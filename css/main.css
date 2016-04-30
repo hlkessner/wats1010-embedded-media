@@ -6,5 +6,149 @@
  *****************************************************************************/
 
  html {
-     color: green;
+     color: black;
+     font-family: "Trebuchet MS", Helvetica, sans-serif
+     
  }
+
+
+/* header styling */
+header {
+    
+    background-image: url('/img/monkey_flight.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: white;
+    height: 600px;
+    width: 100%;
+    margin-right: 0;
+}
+h1 {
+    margin-left: 70px;
+    font-size: 600%;
+    padding-bottom: 0;
+    padding-top: 100px;
+    margin-bottom: 0;
+    text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+}
+h2 {
+    font-size: 50px;
+    color: rgba(0,0,0,0.6);
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 35px rgba(255,255,255,0.3);
+    text-decoration-line:none;
+    margin:0;
+}
+p.subtitle {
+    margin-left: 70px;
+    font-size: 125%;
+    padding-top: 0;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(50, 178, 210, 1);
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+/* end header styling */
+/* aside styling */
+#social {
+    
+    float: right;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 60px;
+    background-color: white;
+    text-align:center;
+    margin-right:0;
+}
+
+#social ul {
+  padding: 0;
+  
+}
+#social li {
+  list-style: none;
+  padding: 0;
+}
+#social img {
+  width: 60px;
+}
+/* end aside styling*/
+/*section styling*/
+video {
+  height: 500px;
+  width: 100%;
+  padding: 30px;
+}
+/* download link styling */
+a.download-button:link, a.download-button:visited {
+    background-color: rgba(62, 234, 111, 1);
+    color: white;
+    padding: 7px 17px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.download-button:hover, a.download-button:active {
+    background-color: rgba(142, 250, 142, 0.79);
+}
+/* end download link styling */
+section{
+    
+    margin-left: 70px;
+    background-color: rgba(254, 226, 249, 0.49);
+}
+
+/* choose the proper image format to use for each headshot below */
+img.headshot {
+  width: 300px;
+  display: inline;
+  text-align: center;
+ 
+}
+ul.weybec-people {
+  list-style: none;
+  display: inline;
+  text-align: center;
+
+}
+
+
+/* end section styling */
+/* footer styling */
+footer {
+    
+    background-image: url("/img/monkaa_monkeyhang.jpg");
+    color: white;
+    height: 300px;
+    width: 100%;
+   
+}
+/*end footer styling */
