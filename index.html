@@ -11,6 +11,16 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- favicon -->
         <link rel="shotcut icon" href="favicon.ico">
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-86925894-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
     </head>
 
     <body>
@@ -33,14 +43,22 @@
             <!-- social aside: fixed position with social media icons -->
             
             <ul class="social-links">
-                <li class="twitter"><a href="http://twitter.com"><img src="/img/twitter.png"></a></li>
-                <li class="facebook"><a href="http://facebook.com"><img src="/img/facebook.png"</a></li>
-                <li class="instagram"><a href="http://instagram.com"><img src="/img/instagram.png"</a></li>
+                <li class="twitter"><a href="http://twitter.com"><img src="../img/twitter.png"></a></li>
+                <li class="facebook"><a href="http://facebook.com"><img src="../img/facebook.png"</a></li>
+                <li class="instagram"><a href="http://instagram.com"><img src="../img/instagram.png"</a></li>
             </ul>
         </aside>
              <!--Embeded video with full controls for a convenient and attractive video viewing experience. -->
         <section id="watch">
             <h2>Watch</h2>
+          <script>
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Videos',
+                eventAction: 'play',
+                eventLabel: 'Event tracking'
+              });
+           </script>
                 <video controls poster="/img/monkaa_title.jpg">
                  <source src="monkaa_1080p.m4v" type=video/m4v>
                   <source src="media/video/monkaa_1080p.webm" type=video/webm>
@@ -50,6 +68,14 @@
 
             
             <h3>Download the video</h3>
+           <script>
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'Videos',
+                eventAction: 'download',
+                eventLabel: 'Event tracking'
+              });
+           </script>
             <p>
                 Click below to download either MP4 or WEBM versions of this video.
                 <br>
@@ -62,7 +88,14 @@
             <h2>Listen</h2>
             <!-- Embeded audio player so users can play back the
                  soundtrack MP3 directly on the page. -->
-
+          <script>
+            ga('send', {
+                hitType: 'event',
+                eventCategory: 'MP3',
+                eventAction: 'download',
+                eventLabel: 'Event tracking'
+              });
+           </script>
             
             <p>
                 <a class="download-button" href="media/audio/monkaa_soundtrack.mp3">Download as MP3</a>

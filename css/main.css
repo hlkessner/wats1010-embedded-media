@@ -10,7 +10,9 @@
      font-family: "Trebuchet MS", Helvetica, sans-serif
      
  }
-
+body {
+  width: 100%; 
+}
 
 /* header styling */
 header {
@@ -104,7 +106,7 @@ nav li a:hover {
 video {
   height: 500px;
   width: 100%;
-  padding: 30px;
+
 }
 /* download link styling */
 a.download-button:link, a.download-button:visited {
@@ -121,8 +123,7 @@ a.download-button:hover, a.download-button:active {
 }
 /* end download link styling */
 section{
-    
-    margin-left: 70px;
+   padding: 20px; 
     background-color: rgba(254, 226, 249, 0.49);
 }
 
