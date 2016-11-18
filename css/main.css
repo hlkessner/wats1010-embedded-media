@@ -17,12 +17,12 @@ body {
 /* header styling */
 header {
     
-    background-image: url('/img/monkey_flight.jpg');
+   background-color: rgba(62, 234, 111, 1);
     background-size: 100%;
     background-repeat: no-repeat;
     text-align: left;
     color: white;
-    height: 600px;
+    height: 200px; 
     width: 100%;
     margin-right: 0;
 }
@@ -30,7 +30,7 @@ h1 {
     margin-left: 70px;
     font-size: 600%;
     padding-bottom: 0;
-    padding-top: 100px;
+    padding-top: 20px;
     margin-bottom: 0;
     text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
@@ -124,7 +124,7 @@ a.download-button:hover, a.download-button:active {
 /* end download link styling */
 section{
    padding: 20px; 
-    background-color: rgba(254, 226, 249, 0.49);
+    background-color: rgba(215, 232, 249, 1);
 }
 
 /* choose the proper image format to use for each headshot below */
